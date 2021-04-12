@@ -13,7 +13,7 @@ spring:
      user: ms-covid
      password: mscovid
      uri: mongodb://localhost:27017/ms-TODO
-  rabbitmq:
+   rabbitmq:
     host: localhost
     port: 5672
     username: guest
