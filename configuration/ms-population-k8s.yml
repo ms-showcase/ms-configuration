@@ -1,1 +1,1 @@
-quarkus.datasource.jdbc-url: jdbc:postgresql://ms-population-postgres:5432/ms-population?user=ms-population&password=ms-population
+quarkus.datasource.jdbc.url: jdbc:postgresql://ms-population-postgres:5432/ms-population?user=ms-population&password=ms-population
