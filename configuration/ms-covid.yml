@@ -12,7 +12,7 @@ spring:
    mongodb:
      user: ms-covid
      password: mscovid
-     uri: mongodb://localhost:27017/ms-TODO
+     uri: mongodb://localhost:27017/ms-covid
    rabbitmq:
     host: localhost
     port: 5672
@@ -25,7 +25,3 @@ spring:
 rabbitmq:
   covid:
     queue: covid19
-eureka:
-  instance:
-    metadataMap:
-      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
