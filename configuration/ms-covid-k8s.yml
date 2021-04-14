@@ -10,14 +10,6 @@ spring:
      user: ms-covid
      password: mscovid
      uri: mongodb://ms-covid-mongo:27017/ms-covid
-   rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-    virtualHost: /
-    concurrency: 1
-    maxConcurrency: 5
 
 rabbitmq:
   covid:

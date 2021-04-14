@@ -1,0 +1,11 @@
+message: hello there!
+
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+    concurrency: 1
+    maxConcurrency: 5
