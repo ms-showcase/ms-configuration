@@ -1,5 +1,7 @@
 message: hello there!
 
+opentracing.jaeger.http-sender.url: http://jaeger:14268/api/traces
+
 spring:
   rabbitmq:
     host: rabbitmq
