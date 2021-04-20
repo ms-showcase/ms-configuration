@@ -9,10 +9,9 @@ logging:
     org.springframework.cloud: 'DEBUG'
 spring:
    data:
-   mongodb:
-     user: ms-covid
-     password: mscovid
-     uri: mongodb://localhost:27017/ms-covid
+     mongodb:
+       uri: mongodb://localhost:27017/ms-covid
+
    rabbitmq:
     host: localhost
     port: 5672
