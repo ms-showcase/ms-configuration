@@ -4,3 +4,6 @@ server:
 logging:
   level:
     org.springframework.cloud: 'DEBUG'
+
+spring:
+  zipkin.baseUrl: http://jaeger:9411/
