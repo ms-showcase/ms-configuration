@@ -9,10 +9,8 @@ logging:
     org.springframework.cloud: 'DEBUG'
 spring:
    data:
-   mongodb:
-     user: ms-covid
-     password: mscovid
-     uri: mongodb://ms-covid-mongo:27017/ms-covid
+     mongodb:
+       uri: mongodb://ms-covid-mongo:27017/ms-covid
 
 rabbitmq:
   covid:
