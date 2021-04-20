@@ -1,8 +1,8 @@
 message: hello there!
 
-opentracing.jaeger.http-sender.url: http://jaeger:14268/api/traces
-
 spring:
+  zipkin.baseUrl: http://jaeger:9411/
+
   rabbitmq:
     host: rabbitmq
     port: 5672
