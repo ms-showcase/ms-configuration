@@ -1,0 +1,1 @@
+zipkin.url: http://jaeger:9411/api/v2/spans
