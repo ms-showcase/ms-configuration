@@ -59,7 +59,7 @@ resilience4j.timelimiter:
     configs:
         default:
             cancelRunningFuture: true
-            timeoutDuration: 2s
+            timeoutDuration: 5s
     instances:
         ms-population:
             baseConfig: default
