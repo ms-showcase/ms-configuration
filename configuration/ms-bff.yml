@@ -55,9 +55,9 @@ resilience4j.circuitbreaker:
     ms-population:
       baseConfig: default
 
- resilience4j.timelimiter:
-   instances:
-     ms-population:
-       timeoutDuration: 2s
-       cancelRunningFuture: true
+ #resilience4j.timelimiter:
+ #  instances:
+ #    ms-population:
+ #      timeoutDuration: 2s
+ #      cancelRunningFuture: true
 
