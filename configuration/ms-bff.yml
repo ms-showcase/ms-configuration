@@ -63,4 +63,15 @@ resilience4j.timelimiter:
     instances:
         ms-population:
             baseConfig: default
+resilience4j.thread-pool-bulkhead:
+    configs:
+        default:
+            maxThreadPoolSize: 4
+            coreThreadPoolSize: 2
+            queueCapacity: 2
+    instances:
+        ms-population:
+            maxThreadPoolSize: 1
+            coreThreadPoolSize: 1
+            queueCapacity: 1
 
