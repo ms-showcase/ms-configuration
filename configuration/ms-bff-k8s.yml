@@ -3,7 +3,7 @@ server:
 
 client.url:
   ms-covid: http://ms-covid:8888
-  ms-population: http://ms-population:8888
+  ms-population: http://ms-population:8080
 
 management:
   endpoint:
