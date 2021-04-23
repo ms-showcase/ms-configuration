@@ -59,5 +59,5 @@ resilience4j.circuitbreaker:
 resilience4j.timelimiter:
     instances:
         ms-population:
-            timeoutDuration: 1s
+            timeoutDuration: 2s
             cancelRunningFuture: true
