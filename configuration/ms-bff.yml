@@ -43,6 +43,7 @@ resilience4j.circuitbreaker:
       eventConsumerBufferSize: 10
       recordExceptions:
         - feign.FeignException
+        - feign.RetryableException
     shared:
       slidingWindowSize: 100
       permittedNumberOfCallsInHalfOpenState: 30
