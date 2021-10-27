@@ -23,4 +23,4 @@ rabbitmq:
  covid:
    queue: covid19
    
- message: hello there develop 2!
+message: hello there develop 2!
