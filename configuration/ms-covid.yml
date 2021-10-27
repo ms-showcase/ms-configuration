@@ -10,15 +10,15 @@ logging:
 spring:
    data:
      mongodb:
-       uri: mongodb://localhost:27017/ms-covid
+       uri: ${mongo_db_uri:mongodb://localhost:27017/ms-covid}
 
 rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
-  virtualHost: /
-  concurrency: 1
-  maxConcurrency: 5
-  covid:
-    queue: covid19
+ host: ${rabbitmq_host:localhost}
+ port: ${rabbitmq_port:5672}
+ username: ${rabbitmq_username:guest}
+ password: ${rabbitmq_password:guest}
+ virtualHost: /
+ concurrency: 1
+ maxConcurrency: 5
+ covid:
+   queue: covid19
