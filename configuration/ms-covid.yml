@@ -20,5 +20,5 @@ rabbitmq:
  virtualHost: /
  concurrency: 1
  maxConcurrency: 5
-  covid:
-    queue: covid19
+ covid:
+   queue: covid19
