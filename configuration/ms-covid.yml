@@ -1,5 +1,5 @@
 server:
-  port: 8889
+  port: ${port:8889}
 
 management:
   context-path: /admin
