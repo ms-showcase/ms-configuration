@@ -1,0 +1,24 @@
+server:
+  port: ${port:8889}
+
+management:
+  context-path: /admin
+
+logging:
+  level:
+    org.springframework.cloud: 'DEBUG'
+spring:
+   data:
+     mongodb:
+       uri: ${mongo_db_uri:mongodb://localhost:27017/ms-covid}
+
+rabbitmq:
+ host: ${rabbitmq_host:localhost}
+ port: ${rabbitmq_port:5672}
+ username: ${rabbitmq_username:guest}
+ password: ${rabbitmq_password:guest}
+ virtualHost: /
+ concurrency: 1
+ maxConcurrency: 5
+ covid:
+   queue: covid19
