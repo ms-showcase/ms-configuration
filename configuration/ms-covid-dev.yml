@@ -22,3 +22,5 @@ rabbitmq:
  maxConcurrency: 5
  covid:
    queue: covid19
+   
+ message: Hello there from dev profile!
