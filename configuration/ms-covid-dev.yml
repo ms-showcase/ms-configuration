@@ -23,4 +23,4 @@ rabbitmq:
  covid:
    queue: covid19
    
- message: Hello there from dev profile!
+message: Hello there from dev profile!
