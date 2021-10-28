@@ -22,5 +22,3 @@ rabbitmq:
  maxConcurrency: 5
  covid:
    queue: covid19
-   
-message: hello there develop 2!
